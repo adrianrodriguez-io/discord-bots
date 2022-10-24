@@ -10,7 +10,7 @@ token = os.environ.get("token")
 serverid = 123
 channelid = 456
 
-def get_next_message():
+def get_random_message():
 
     #messages array from 0 to 5
     messages = [
@@ -23,8 +23,7 @@ def get_next_message():
     ]
 
     rng = np.random.default_rng()
-    i = rng.integers(6, size=1)[0]
-    i = i
+    i = rng.integers(len(messages), size=1)[0]
     
     message = messages[i]
 
@@ -45,6 +44,6 @@ async def on_ready():
 async def on_member_join(member):
   guild = client.get_guild(serverid)
   channel = guild.get_channel(channelid)
-  await channel.send(f'Welcome {member.mention} !'+get_next_message())
+  await channel.send(f'Welcome {member.mention} !'+get_random_message())
 
 client.run(token)
