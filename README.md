@@ -1,5 +1,11 @@
 # Discord bots
-In this repository you can find different Discord bots developed using python with the library discord.py. For more info about the discord.py library please check more info in the following link https://discordpy.readthedocs.io/en/stable/index.html#getting-started . You might need to install the python libraries dependancies according to each of the scripts.  
+In this repository you can find different Discord bots developed using python with the library discord.py. For more info about the discord.py library please check more info in the following link https://discordpy.readthedocs.io/en/stable/index.html#getting-started . You might need to install the python libraries dependancies according to each of the scripts. 
+
+## Prerequisites
+Check the python script you want to use for developing your bot and install the python libraries it contains. Notice that these scripts use a .env file that you will need to create named .env (the same) so you can put there your discord app token, althought it is not neccesary it is a good practice if you would like to share your code instead of hardcoding your token in the scripts. 
+
+.env example content:
+token = 'yourdiscordapptokenhere'
 
 ## Welcome Bot
 welcomebot.py 
