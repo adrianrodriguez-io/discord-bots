@@ -1,4 +1,4 @@
-# discord bots
+# Discord bots
 In this repository you can find different Discord bots developed using python with the library discord.py. For more info about the discord.py library please check more info in the following link https://discordpy.readthedocs.io/en/stable/index.html#getting-started . You might need to install the python libraries dependancies according to each of the scripts.  
 
 ## Welcome Bot
