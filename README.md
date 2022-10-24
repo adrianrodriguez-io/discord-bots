@@ -4,7 +4,9 @@ In this repository you can find different Discord bots developed using python wi
 ## Welcome Bot
 welcomebot.py 
 
-This discord bot send a random message when a new member joins the server. In the code you wil find that there is an array wich contains the different messages you would like to send, amend that according to your needs. The list of messages can be big or smaill, it is up to you, the function get_random_message() will return a randome message within the messages list. Notice that you will need to set the serverid and channelid (you can find those parameters at the beggining of the script) in wich you want to send the message
+This discord bot send a random message when a new member joins the server. In the code you wil find that there is an array wich contains the different messages you would like to send, amend that according to your needs. The list of messages can be big or smaill, it is up to you, the function get_random_message() will return a randome message within the messages list. Notice that you will need to set the serverid and channelid (you can find those parameters at the beggining of the script) in wich you want to send the message. 
+
+<img src='https://github.com/adrianrodriguez-io/discord-bots/blob/main/images/welcomebot.png'></img>
 
 ## Reply bot
 replybot.py
